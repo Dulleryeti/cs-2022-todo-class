@@ -1,0 +1,28 @@
+{
+  "name": "todo-class",
+  "version": "1.0.0",
+  "description": "Code School todo app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js --port=8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dulleryeti/cs-2022-todo-class.git"
+  },
+  "author": "Henry Chavira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dulleryeti/cs-2022-todo-class/issues"
+  },
+  "homepage": "https://github.com/Dulleryeti/cs-2022-todo-class#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "flags": "^0.1.3"
+  }
+}
